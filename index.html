@@ -7,8 +7,52 @@
     <title>Alfin pude alv que rico</title>
 </head>
 <body>
-    <h1>Ahora si perros se viene lo chido!</h1>
-    <p>creo que para hacer el commit si necesitas hacer cambios</p>
-    <div> <p>que onda o que perrio</p></div>
+    <h1>calcularemos tu peso en diferentes planetas desde el codigo</h1>
+   
+    <script>
+        var u_peso = prompt("cual es tu pedo es kg?")//here we have the input that indicates the weight.
+        var planeta_ac = prompt("Escoge un planeta 1 es jupiter, 2 es marte.");
+    
+    //in the following lines we have the constants that we are going to use trought the code.
+        var pesotierra= parseInt(u_peso);
+        const gravmars = 3.72;
+        const gravearth = 9.80;
+        const gravjup = 24.79;
+        
+    
+// in the following vars we have the equation that helps us to find the result that we need.
+        
+    
+        
+        if (planeta_ac==1) 
+        {
+            var pesojupiter = (pesotierra*gravjup)/gravearth;
+            pesojupiter = (pesojupiter.toFixed(2));
+            result = pesojupiter
+        }
+        else if (planeta_ac==2) 
+        {
+            var pesomarte = (pesotierra*gravmars)/gravearth;
+            pesomarte = (pesomarte.toFixed(2));
+            result = pesomarte
+
+                          //
+        }
+        if (planeta_ac==1){
+            var planeta_e = "Jupiter";
+        }
+        else if (planeta_ac==2){
+            planeta_e = "Marte"
+        }
+        
+document.write("Tu peso en "+planeta_e+" es de "+result)
+        
+        
+        
+    
+        
+    </script>
+    
 </body>
+
 </html>
