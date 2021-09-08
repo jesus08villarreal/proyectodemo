@@ -45,7 +45,7 @@ function dibujoporClick(){
 
 };
 
-
+// 
 function dibujarLineas(colorline, xinicial,yinicial,xfinal,yfinal,){
     
     lienzo.beginPath();
