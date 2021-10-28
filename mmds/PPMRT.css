@@ -1,0 +1,56 @@
+#pipeMart {
+    text-align: center;
+    color: whitesmoke;
+    background-color: #368336;
+    font-family:'Roboto', sans-serif;
+    font-size: 600%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-style: hidden;
+    padding: 30px;
+    border-radius: 6px;
+}
+header {
+text-align: center;
+vertical-align: middle;
+background-color: #368936;
+
+}
+#slogan {
+    background-color: #368936;
+    font-family:'Roboto', sans-serif;
+    color: whitesmoke;
+font-size: 125%;
+padding-bottom: 30px;
+}
+body {
+    background-color: seagreen;
+}
+#boxofContact {
+    text-align: center;
+    margin-top: 100px;
+    border-style: double;
+    border-color: black;
+    border-width: 1px;
+    border
+}
+.hiwhats {
+    font-family:'Roboto', sans-serif;
+    font-size: 170%;
+    text-align: center;
+    border-radius: 6px;
+    border-color: aquamarine;
+    border-style: double;
+    border-color: black;   
+}
+
+#firstName {
+    margin-right: 15px;
+    border-style: double;
+    border-color: black;
+}
+#lastName {
+    margin-left: 15px;
+    border-style: double;
+    border-color: black;
+}
